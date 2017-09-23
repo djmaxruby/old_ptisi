@@ -1,4 +1,4 @@
-<?
+<?php
 $global_lang = "el";
 
 define("DB_HOST", "localhost");

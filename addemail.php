@@ -1,4 +1,4 @@
-<?
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'].'/ptisi-lib.php';
 

@@ -1,14 +1,14 @@
-<?
+<?php
 if ($global_lang == 'el') $taxi_lang = 'en';
 else $taxi_lang = $global_lang;
 ?>
 
-<section class="jumbotron main-block" style="background: url('<? echo $background[$page_name]; ?>') 50% fixed no-repeat;">
+<section class="jumbotron main-block" style="background: url('<?php echo $background[$page_name]; ?>') 50% fixed no-repeat;">
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<h2 style="color: white"><? echo $search_form_header[$global_lang][$page_name]; ?><br><br></h2>
+			<h2 style="color: white"><?php echo $search_form_header[$global_lang][$page_name]; ?><br><br></h2>
 		</div>
 	</div>
 	<div class="row">
@@ -18,9 +18,9 @@ else $taxi_lang = $global_lang;
 <div id="kiwitaxi_widget_wrapper" class="kiwitaxi_widget_wrapper"></div> <!-- контейнер, в который будет вставлен виджет -->
 <script type="text/javascript">
                var kiwitaxiWidgetOptions = {
- 				   language: '<? echo $taxi_lang; ?>',    /* Язык отображения виджета, может быть "en" или "ru" */
-				   display_currency: '<? echo $currency[$global_lang]; ?>',    /* Валюта, в которых отображается стоимость трансфера, есть возможность выбрать из трех валют: "USD", "EUR", "RUB" */
-				    payment_currency: '<? echo $currency[$global_lang]; ?>',    /* Валюта, в которой производится предоплата (если отличается от display_currency), на данный момент возможны три значения: "RUB", "EUR", "USD" */
+ 				   language: '<?php echo $taxi_lang; ?>',    /* Язык отображения виджета, может быть "en" или "ru" */
+				   display_currency: '<?php echo $currency[$global_lang]; ?>',    /* Валюта, в которых отображается стоимость трансфера, есть возможность выбрать из трех валют: "USD", "EUR", "RUB" */
+				    payment_currency: '<?php echo $currency[$global_lang]; ?>',    /* Валюта, в которой производится предоплата (если отличается от display_currency), на данный момент возможны три значения: "RUB", "EUR", "USD" */
 				    country: '',    /* Страна, в переделах которой будет ограничен поиск трансферов (можно указать как наименование на англ. или рус., так и двухсимвольный код IATA) */
  				   place_from: '',    /* Значение поля "Откуда" по умолчанию (можно указать как наименование маршрутной точки на англ. или рус., так и ее код IATA) */
     				place_to: '',    /* Значение поля "Куда" по умолчанию (можно указать как наименование маршрутной точки на англ. или рус., так и ее код IATA) */

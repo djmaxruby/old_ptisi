@@ -15,25 +15,25 @@
           <div class="item active">
             <img src="/img/tickets-c.jpg" alt="..." class="img-scale">
             <div class="carousel-caption">
-              <h2><? echo $carousel[$global_lang]['tickets']; ?></h2>
+              <h2><?php echo $carousel[$global_lang]['tickets']; ?></h2>
             </div>
           </div>
           <div class="item">
             <img src="/img/hotels-c.jpg" alt="..." class="img-scale">
             <div class="carousel-caption">
-              <h2><? echo $carousel[$global_lang]['hotels']; ?></h2>
+              <h2><?php echo $carousel[$global_lang]['hotels']; ?></h2>
             </div>
           </div>    
           <div class="item">
             <img src="/img/rental-c.jpg" alt="..." class="img-scale">
             <div class="carousel-caption">
-               <h2><? echo $carousel[$global_lang]['rental']; ?></h2>
+               <h2><?php echo $carousel[$global_lang]['rental']; ?></h2>
            </div>
           </div>
           <div class="item">
             <img src="/img/taxi-c.jpg" alt="..." class="img-scale">
             <div class="carousel-caption">
-              <h2><? echo $carousel[$global_lang]['taxi']; ?></h2>
+              <h2><?php echo $carousel[$global_lang]['taxi']; ?></h2>
             </div>
           </div>
         </div>

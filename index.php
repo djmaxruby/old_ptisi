@@ -1,11 +1,11 @@
-<?
+<?php
 	$page_name = "tickets";
 ?>
 
 <!DOCTYPE html>
 <html>
 
-<?
+<?php
 	include $_SERVER['DOCUMENT_ROOT'].'/ptisi-lib.php';
 	check_language();
 
@@ -15,7 +15,7 @@
 
 <body>
 
-<?
+<?php
 include $_SERVER['DOCUMENT_ROOT'].'/ptisi-navigation-block.php';
 
 include $_SERVER['DOCUMENT_ROOT'].'/tickets-main-block.php';

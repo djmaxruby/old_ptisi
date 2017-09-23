@@ -1,15 +1,16 @@
-<section class="jumbotron main-block" style="background: url('<? echo $background[$page_name]; ?>') 50% no-repeat;">
+<section class="jumbotron main-block" style="background: url('<?php echo $background[$page_name]; ?>') 50% no-repeat;">
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<h2 style="color: white"><? echo $search_form_header[$global_lang][$page_name]; ?><br><br></h2>
+			<h2 style="color: white"><?php echo $search_form_header[$global_lang][$page_name]; ?><br><br></h2>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12"><? echo $search_form[$global_lang][$page_name]; ?></script>
+		<div class="col-md-12"><?php echo $search_form[$global_lang][$page_name]; ?></script>
 		<!--pre>
-<?
+<?php
+/*
 	print_r($menu_items[$global_lang]);
 	print_r($languages);
 
@@ -18,6 +19,7 @@
 		if ($global_lang != $lang_keys[$i])
 			echo $languages[$lang_keys[$i]];
 	}
+*/
 ?>
 		</pre>
 		<span class="glyphicon glyphicon-plane"></span><img src="/img/ru-flag.svg" width="20" border="0"-->
