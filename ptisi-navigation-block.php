@@ -25,7 +25,7 @@
   }
 ?>
        <li class="dropdown">
-          <button class="btn btn-default dropdown-toggle btn-language" data-toggle="dropdown" aria-haspopup="true"><img src=<? echo "\"/img/$global_lang-flag.svg\""; ?> width="20" border="0">&nbsp;<?php echo $languages[$global_lang]; ?>&nbsp;<span class="caret"></span></button>
+          <button class="btn btn-default dropdown-toggle btn-language" data-toggle="dropdown" aria-haspopup="true"><img src=<?php echo "\"/img/$global_lang-flag.svg\""; ?> width="20" border="0">&nbsp;<?php echo $languages[$global_lang]; ?>&nbsp;<span class="caret"></span></button>
           <ul class="dropdown-menu">
  <?php
 	$lang_keys = array_keys($languages);
