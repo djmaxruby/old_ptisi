@@ -1,0 +1,147 @@
+body {
+	background-color: #f9f9f9;
+}
+
+.left-block {
+	position: relative;
+	width: 50%;
+	bottom: -170px;
+	height: 40px;
+	transform: rotate(2deg);
+	display: inline-block;
+	background-color: #f9f9f9;
+}
+
+.right-block {
+	position: relative;
+	width: 50%;
+	bottom: -170px;
+	height: 40px;
+	transform: rotate(-2deg);
+	display: inline-block;
+	background-color: #f9f9f9;
+}
+
+.main-block {
+/*	background: url('/img/back_aviatickets.jpg') 50%;*/
+	background-size: cover;
+/*	padding-top: 5%;*/
+	padding-bottom: 150px;
+}
+
+.top-nav-container {
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+.top-logo {
+	position: relative;
+	top: -30px;
+	opacity: 0.7;
+	transition: all 0.3s;
+}
+.top-logo:hover {
+	opacity: 0.6;
+}
+
+.top-nav {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nav-shadow {
+	box-shadow: 0 0px 2px rgba(0,0,0,0.5);
+}
+
+.btn-language {
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+#loader {
+	position: absolute;
+	left: 40%;
+	top: 40%;
+/*	display: none;*/
+}
+
+.img-scale {
+	transition: all 0.3s;
+}
+
+.img-scale:hover {
+	transform: scale(1.03,1.03);
+}
+
+.reason-image {
+	background-color: #bfbfbf;
+	padding: 3px 3px;
+	border-radius: 50px;
+}
+
+.reason-block {
+/*	position: relative;*/
+	padding-top: 10px;
+	transition: all 0.5s;
+	border-radius: 5px;
+	height: 100%;
+}
+
+.ac-transform:hover {
+	transform: scale(1.05,1.05);
+}
+/*
+.reason-block::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    border-width: 20px;
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: #dde7ee transparent transparent transparent;
+    border-top-color: rgb(221, 231, 238);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+*/
+
+.reason-block:hover {
+	background-color: #f0f0f0;
+}
+
+body {
+	
+
+}
+@media (max-width: 600px) {
+	.top-logo {
+		width: 80%;
+	}
+	.top-nav {
+		left: 10px;
+	}
+	.reason_block {
+		margin-left: 10px;
+	}
+	.right-to-left {
+		text-align: left;
+		padding-top: 10px;
+	}
+}
+
+#preloader {
+	position: fixed;
+	left: 45%;
+	top: 45%;
+	display: none;
+	z-index: 4;
+}
